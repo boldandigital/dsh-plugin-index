@@ -38,6 +38,18 @@ const PLUGINS = [
 		category: 'integration',
 		keywords: ['subagent', 'free-tier', 'router', 'fallback', 'quota', 'agent-teams'],
 	},
+	{
+		name: 'dsh-minimax-quota',
+		title: { en: 'MiniMax Quota' },
+		description: {
+			en: 'Shows the remaining MiniMax Token Plan quota next to the composer, with the 5-hour and weekly windows and their reset times. The API key stays in the harness credential store: the browser never sees it.',
+		},
+		author: 'boldandigital',
+		homepage: 'https://github.com/boldandigital/dsh-minimax-quota',
+		repository: { url: 'https://github.com/boldandigital/dsh-minimax-quota' },
+		category: 'integration',
+		keywords: ['minimax', 'quota', 'usage', 'token-plan', 'chip'],
+	},
 ];
 
 const ICON_BYTES_LIMIT = 32 * 1024;

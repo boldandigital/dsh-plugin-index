@@ -130,6 +130,51 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-minimax-quota",
+      "title": {
+        "en": "MiniMax Quota"
+      },
+      "description": {
+        "en": "Shows the remaining MiniMax Token Plan quota next to the composer, with the 5-hour and weekly windows and their reset times. The API key stays in the harness credential store: the browser never sees it."
+      },
+      "author": "boldandigital",
+      "homepage": "https://github.com/boldandigital/dsh-minimax-quota",
+      "repository": {
+        "url": "https://github.com/boldandigital/dsh-minimax-quota"
+      },
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "npm"
+        ],
+        "keywords": [
+          "minimax",
+          "quota",
+          "usage",
+          "token-plan",
+          "chip"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "dist-tags": {
+        "latest": "0.1.0"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794440083,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
     }
   ]
 }
