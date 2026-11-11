@@ -92,6 +92,7 @@
       "description": {
         "en": "Route delegated subagents and Agent Teams over free-tier models: pick a pool of approved free routes once, and every child request fails over to the next free model with a persistent ledger of quota, rate-limit and timeout parks. Per-route reasoning effort, task-aware route selection."
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxNzZiNTgiLz48cGF0aCBkPSJNMTcgMzJoMTZtMCAwIDE0LTE1TTMzIDMybDE0IDE1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiLz48ZyBmaWxsPSJ3aGl0ZSI+PGNpcmNsZSBjeD0iMTciIGN5PSIzMiIgcj0iNSIvPjxjaXJjbGUgY3g9IjQ3IiBjeT0iMTciIHI9IjUiLz48Y2lyY2xlIGN4PSI0NyIgY3k9IjQ3IiByPSI1Ii8+PC9nPjwvc3ZnPg==",
       "author": "boldandigital",
       "homepage": "https://github.com/boldandigital/dsh-free-subagents",
       "repository": {
@@ -115,12 +116,12 @@
         }
       },
       "dist-tags": {
-        "latest": "0.1.0"
+        "latest": "0.1.1"
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1794426081,
+          "version": "0.1.1",
+          "publishTimestamp": 1794438810,
           "source": {
             "type": "npm"
           },
