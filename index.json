@@ -83,6 +83,52 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-free-subagents",
+      "title": {
+        "en": "Free Subagents"
+      },
+      "description": {
+        "en": "Route delegated subagents and Agent Teams over free-tier models: pick a pool of approved free routes once, and every child request fails over to the next free model with a persistent ledger of quota, rate-limit and timeout parks. Per-route reasoning effort, task-aware route selection."
+      },
+      "author": "boldandigital",
+      "homepage": "https://github.com/boldandigital/dsh-free-subagents",
+      "repository": {
+        "url": "https://github.com/boldandigital/dsh-free-subagents"
+      },
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "npm"
+        ],
+        "keywords": [
+          "subagent",
+          "free-tier",
+          "router",
+          "fallback",
+          "quota",
+          "agent-teams"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "dist-tags": {
+        "latest": "0.1.0"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794426081,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
     }
   ]
 }

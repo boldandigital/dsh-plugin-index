@@ -26,6 +26,18 @@ const PLUGINS = [
 		category: 'integration',
 		keywords: ['google-drive', 'drive', 'google', 'oauth', 'service-account', 'files'],
 	},
+	{
+		name: 'dsh-free-subagents',
+		title: { en: 'Free Subagents' },
+		description: {
+			en: 'Route delegated subagents and Agent Teams over free-tier models: pick a pool of approved free routes once, and every child request fails over to the next free model with a persistent ledger of quota, rate-limit and timeout parks. Per-route reasoning effort, task-aware route selection.',
+		},
+		author: 'boldandigital',
+		homepage: 'https://github.com/boldandigital/dsh-free-subagents',
+		repository: { url: 'https://github.com/boldandigital/dsh-free-subagents' },
+		category: 'integration',
+		keywords: ['subagent', 'free-tier', 'router', 'fallback', 'quota', 'agent-teams'],
+	},
 ];
 
 const ICON_BYTES_LIMIT = 32 * 1024;
