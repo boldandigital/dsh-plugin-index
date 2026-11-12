@@ -36,7 +36,6 @@ const PLUGINS = [
 		homepage: 'https://github.com/boldandigital/dsh-free-subagents',
 		repository: { url: 'https://github.com/boldandigital/dsh-free-subagents' },
 		category: 'model',
-		engines: { dsh: '>=0.2.2-rc.1' },
 		keywords: ['subagent', 'free-tier', 'router', 'fallback', 'quota', 'agent-teams'],
 	},
 	{
@@ -68,16 +67,26 @@ async function registryDocument(name) {
 }
 
 /**
- * The version the registry points `latest` at, and when it was published.
+ * The version the registry points `latest` at, when it was published, and the
+ * `engines` its own manifest declares.
+ *
+ * The engines come from the package, not from this file: the index must
+ * mirror the manifest it points at, or the harness refuses the install for a
+ * reason the listing never mentioned.
  *
  * @param {object} document - the registry document.
- * @returns {{version: string, publishTimestamp: number}} the version and its time.
+ * @returns {{version: string, publishTimestamp: number, engines: object|null}} the version, its time and its engines.
  */
 function latestVersion(document) {
 	const version = document?.['dist-tags']?.latest;
 	const published = document?.time?.[version];
 	if (typeof version !== 'string' || typeof published !== 'string') return null;
-	return { version, publishTimestamp: Math.floor(Date.parse(published) / 1000) };
+	const engines = document?.versions?.[version]?.engines;
+	return {
+		version,
+		publishTimestamp: Math.floor(Date.parse(published) / 1000),
+		engines: engines && typeof engines === 'object' ? engines : null,
+	};
 }
 
 /**
@@ -129,7 +138,7 @@ for (const plugin of PLUGINS) {
 				version: latest.version,
 				publishTimestamp: latest.publishTimestamp,
 				source: { type: 'npm' },
-				engines: plugin.engines ?? { dsh: '>=0.2.0' },
+				engines: latest.engines ?? { dsh: '>=0.2.0' },
 			},
 		],
 	};
