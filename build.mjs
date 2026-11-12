@@ -35,7 +35,8 @@ const PLUGINS = [
 		author: 'boldandigital',
 		homepage: 'https://github.com/boldandigital/dsh-free-subagents',
 		repository: { url: 'https://github.com/boldandigital/dsh-free-subagents' },
-		category: 'integration',
+		category: 'model',
+		engines: { dsh: '>=0.2.2-rc.1' },
 		keywords: ['subagent', 'free-tier', 'router', 'fallback', 'quota', 'agent-teams'],
 	},
 	{
@@ -128,7 +129,7 @@ for (const plugin of PLUGINS) {
 				version: latest.version,
 				publishTimestamp: latest.publishTimestamp,
 				source: { type: 'npm' },
-				engines: { dsh: '>=0.2.0' },
+				engines: plugin.engines ?? { dsh: '>=0.2.0' },
 			},
 		],
 	};
@@ -146,6 +147,7 @@ const index = {
 	metadata: {
 		categories: {
 			integration: { title: { en: 'Integrations & Connections', zh: '集成与连接' } },
+			model: { title: { en: 'Models & Reasoning', zh: '模型与推理' } },
 		},
 		labels: {
 			npm: { title: { en: 'On npm', zh: '已发布到 npm' } },

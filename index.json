@@ -15,6 +15,12 @@
           "en": "Integrations & Connections",
           "zh": "集成与连接"
         }
+      },
+      "model": {
+        "title": {
+          "en": "Models & Reasoning",
+          "zh": "模型与推理"
+        }
       }
     },
     "labels": {
@@ -99,7 +105,7 @@
         "url": "https://github.com/boldandigital/dsh-free-subagents"
       },
       "metadata": {
-        "category": "integration",
+        "category": "model",
         "labels": [
           "npm"
         ],
@@ -116,17 +122,17 @@
         }
       },
       "dist-tags": {
-        "latest": "0.1.1"
+        "latest": "0.1.2"
       },
       "versions": [
         {
-          "version": "0.1.1",
-          "publishTimestamp": 1794438810,
+          "version": "0.1.2",
+          "publishTimestamp": 1794518507,
           "source": {
             "type": "npm"
           },
           "engines": {
-            "dsh": ">=0.2.0"
+            "dsh": ">=0.2.2-rc.1"
           }
         }
       ]
