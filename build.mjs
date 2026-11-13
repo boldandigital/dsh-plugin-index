@@ -50,6 +50,18 @@ const PLUGINS = [
 		category: 'integration',
 		keywords: ['minimax', 'quota', 'usage', 'token-plan', 'chip'],
 	},
+	{
+		name: 'dsh-mailgun',
+		title: { en: 'Mailgun' },
+		description: {
+			en: 'Sends email through the Mailgun HTTP API with per-message open and click tracking, and reads the delivery and engagement events, the sending domains and the domain counters. Several accounts, each with its own API key in the credential store.',
+		},
+		author: 'boldandigital',
+		homepage: 'https://github.com/boldandigital/dsh-mailgun',
+		repository: { url: 'https://github.com/boldandigital/dsh-mailgun' },
+		category: 'integration',
+		keywords: ['mailgun', 'email', 'send', 'tracking', 'transactional', 'api'],
+	},
 ];
 
 const ICON_BYTES_LIMIT = 32 * 1024;
