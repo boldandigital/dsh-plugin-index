@@ -185,6 +185,54 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-mailgun",
+      "title": {
+        "en": "Mailgun"
+      },
+      "description": {
+        "en": "Sends email through the Mailgun HTTP API with per-message open and click tracking, and reads the delivery and engagement events, the sending domains and the domain counters. Several accounts, each with its own API key in the credential store."
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNYWlsZ3VuIj4KICA8dGl0bGU+TWFpbGd1bjwvdGl0bGU+CiAgPCEtLQogICAgQSBwYXBlciBwbGFuZSBpbiBmbGlnaHQ6IHRoZSBzZW5kLWFuZC10cmFjayBoYWxmIG9mIHRoZSBwbHVnaW4sIGRyYXduCiAgICB3aXRob3V0IHRoZSByZWQgb2YgdGhlIE1haWxndW4gYnJhbmQgc28gdGhlIHNldCByZWFkcyBhcyBvbmUgZmFtaWx5LgogICAgQm9sZCBhbmQgZGlnaXRhbCBpbmsgcGxhdGUsIGJyYW5kIGN5YW4gZ2x5cGgsIHBhcGVyIGZvbGQuCiAgLS0+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9Im1nLXBsYXRlIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzA5MWMzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTEyMWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSJ1cmwoI21nLXBsYXRlKSIvPgoKICA8IS0tIHRoZSB1cHBlciB3aW5nIC0tPgogIDxwYXRoIGQ9Ik0xMiAyNiBMNTAgMTUgTDI2IDMxIFoiIGZpbGw9IiM1N2ViZWUiLz4KICA8IS0tIHRoZSBsb3dlciBmb2xkLCBpbiBwYXBlciwgc28gdGhlIHBsYW5lIHN0aWxsIHJlYWRzIGluIGdyZXlzY2FsZSAtLT4KICA8cGF0aCBkPSJNMTIgMjYgTDI2IDMxIEwyMSA0NCBaIiBmaWxsPSIjZmZmZmZmIi8+CgogIDwhLS0gbW9ub2dyYW0gLS0+CiAgPHJlY3QgeD0iMzYiIHk9IjQyIiB3aWR0aD0iMjQiIGhlaWdodD0iMTgiIHJ4PSI2IiBmaWxsPSIjMDkxYzM2IiBzdHJva2U9IiM1N2ViZWUiIHN0cm9rZS13aWR0aD0iMiIvPgogIDx0ZXh0IHg9IjQ4IiB5PSI1NSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsLWFwcGxlLXN5c3RlbSxTZWdvZSBVSSxSb2JvdG8sc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjAuMyI+TUc8L3RleHQ+Cjwvc3ZnPgo=",
+      "author": "boldandigital",
+      "homepage": "https://github.com/boldandigital/dsh-mailgun",
+      "repository": {
+        "url": "https://github.com/boldandigital/dsh-mailgun"
+      },
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "npm"
+        ],
+        "keywords": [
+          "mailgun",
+          "email",
+          "send",
+          "tracking",
+          "transactional",
+          "api"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "dist-tags": {
+        "latest": "0.1.5"
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1794605233,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3",
+            "node": ">=22"
+          }
+        }
+      ]
     }
   ]
 }
