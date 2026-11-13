@@ -75,17 +75,17 @@
         }
       },
       "dist-tags": {
-        "latest": "0.1.9"
+        "latest": "0.2.0"
       },
       "versions": [
         {
-          "version": "0.1.9",
-          "publishTimestamp": 1794529968,
+          "version": "0.2.0",
+          "publishTimestamp": 1794590520,
           "source": {
             "type": "npm"
           },
           "engines": {
-            "dsh": ">=0.2.0",
+            "dsh": ">=0.2.2-rc.3",
             "node": ">=22.0.0"
           }
         }
@@ -123,17 +123,17 @@
         }
       },
       "dist-tags": {
-        "latest": "0.1.5"
+        "latest": "0.1.6"
       },
       "versions": [
         {
-          "version": "0.1.5",
-          "publishTimestamp": 1794564466,
+          "version": "0.1.6",
+          "publishTimestamp": 1794590591,
           "source": {
             "type": "npm"
           },
           "engines": {
-            "dsh": ">=0.2.2-rc.1",
+            "dsh": ">=0.2.2-rc.3",
             "node": ">=22"
           }
         }
@@ -170,17 +170,17 @@
         }
       },
       "dist-tags": {
-        "latest": "0.2.3"
+        "latest": "0.2.4"
       },
       "versions": [
         {
-          "version": "0.2.3",
-          "publishTimestamp": 1794564473,
+          "version": "0.2.4",
+          "publishTimestamp": 1794590454,
           "source": {
             "type": "npm"
           },
           "engines": {
-            "dsh": ">=0.2.0",
+            "dsh": ">=0.2.2-rc.3",
             "node": ">=22.0.0"
           }
         }
