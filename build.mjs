@@ -92,21 +92,35 @@ function latestVersion(document) {
 /**
  * The package icon, as a data URL the index format accepts.
  *
+ * The CDN serves a freshly published version only once it has fetched the
+ * tarball, which takes a moment after npm accepts the publish. A build that
+ * runs in that window sees a 404 and would drop the icon from the index, so
+ * a miss is retried a few times before it is believed.
+ *
  * @param {string} name - the package name.
  * @param {string} version - the version to read the icon from.
  * @returns {Promise<string|null>} the data URL, or null when there is none.
  */
 async function iconDataUrl(name, version) {
 	const url = `https://cdn.jsdelivr.net/npm/${name}@${version}/assets/icon.svg`;
-	try {
-		const response = await fetch(url);
-		if (!response.ok) return null;
-		const bytes = Buffer.from(await response.arrayBuffer());
-		if (bytes.length === 0 || bytes.length > ICON_BYTES_LIMIT) return null;
-		return `data:image/svg+xml;base64,${bytes.toString('base64')}`;
-	} catch {
-		return null;
+	for (let attempt = 1; attempt <= 4; attempt++) {
+		try {
+			const response = await fetch(url);
+			if (response.ok) {
+				const bytes = Buffer.from(await response.arrayBuffer());
+				if (bytes.length > 0 && bytes.length <= ICON_BYTES_LIMIT) {
+					return `data:image/svg+xml;base64,${bytes.toString('base64')}`;
+				}
+				return null;
+			}
+		} catch {
+			// fall through to the retry
+		}
+		if (attempt < 4) {
+			await new Promise(resolve => setTimeout(resolve, 3000 * attempt));
+		}
 	}
+	return null;
 }
 
 const plugins = [];

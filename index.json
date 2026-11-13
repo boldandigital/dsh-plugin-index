@@ -51,7 +51,7 @@
         "en": "Adds a Google Drive tab to the sidebar. A guided wizard sets you up: sign in with Google or connect a service account, reusing the OAuth clients and keys this Mac already has. Then browse the account's files.",
         "zh": "在侧边栏添加 Google Drive 选项卡。通过引导式向导进行设置：使用 Google 登录或连接服务账号，然后浏览账号中的文件。"
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ikdvb2dsZSBEcml2ZSBhY2NvdW50cyI+CiAgPHRpdGxlPkdvb2dsZSBEcml2ZSBhY2NvdW50czwvdGl0bGU+CiAgPCEtLQogICAgT3JpZ2luYWwgYXJ0d29yazogYW4gb3BlbiBzdG9yYWdlIHRyYXkgaG9sZGluZyBhIGtleS4gSXQgcmVhZHMgYXMKICAgICJjbG91ZCBjcmVkZW50aWFscyIgcmF0aGVyIHRoYW4gcmV1c2luZyBhbnkgdmVuZG9yJ3MgcHJvZHVjdCBtYXJrLCBzbyB0aGUKICAgIGJ1bmRsZSBjYW4gc2hpcCB1bmRlciBhIHBlcm1pc3NpdmUgbGljZW5jZS4KICAtLT4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2QtdHJheSIgeDE9IjMiIHkxPSIxMyIgeDI9IjIxIiB5Mj0iMjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjM0Q3REY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJBNUJDNCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ2Qta2V5IiB4MT0iOCIgeTE9IjQiIHgyPSIxNiIgeTI9IjExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzZGQThGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0Qzg2RjAiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxwYXRoIGZpbGw9InVybCgjZ2Qta2V5KSIgZD0iTTEyIDMuMmE0LjEgNC4xIDAgMCAwLTIuMDUgNy42NnYxLjI4aDQuMXYtMS4yOEE0LjEgNC4xIDAgMCAwIDEyIDMuMlptLTEuNiA0LjFhMS42IDEuNiAwIDEgMSAzLjIgMCAxLjYgMS42IDAgMCAxLTMuMiAwWiIvPgogIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik05LjYgMTIuOWg0Ljh2Mi4xSDkuNnoiLz4KICA8cGF0aCBmaWxsPSJ1cmwoI2dkLXRyYXkpIiBkPSJNMi42IDE1LjFhMS4yIDEuMiAwIDAgMSAxLjItMS4yaDQuMDVsMS43IDIuM2g5LjY1YTEuMiAxLjIgMCAwIDEgMS4yIDEuMnY0LjNhMS4yIDEuMiAwIDAgMS0xLjIgMS4ySDMuOGExLjIgMS4yIDAgMCAxLTEuMi0xLjJ2LTQuM1oiLz4KPC9zdmc+Cg==",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJHb29nbGUgRHJpdmUiPgogIDx0aXRsZT5Hb29nbGUgRHJpdmU8L3RpdGxlPgogIDwhLS0KICAgIEEgZmlsZSBiZWluZyBwdWxsZWQgZG93biBpbnRvIGEgY2hhdCBidWJibGUsIHdoaWNoIGlzIHdoYXQgdGhlIHBsdWdpbgogICAgZG9lczogZHJhZyBhIERyaXZlIGZpbGUgaW50byB0aGUgY29udmVyc2F0aW9uLiBJdCByZWFkcyBhcyAiZmlsZXMgeW91IGNhbgogICAgcmVhY2giIHJhdGhlciB0aGFuIHJldXNpbmcgYW55IHZlbmRvcidzIHByb2R1Y3QgbWFyaywgc28gdGhlIGJ1bmRsZSBzdGF5cwogICAgdW5kZXIgYSBwZXJtaXNzaXZlIGxpY2VuY2UuCiAgLS0+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdkLXBsYXRlIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzA5MWMzNiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTEyMWYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdkLWZpbGUiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNTdlYmVlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRhYzhjYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjZ2QtcGxhdGUpIi8+CgogIDwhLS0gdGhlIGZpbGUsIHdpdGggYSBmb2xkZWQgY29ybmVyIC0tPgogIDxwYXRoIGQ9Ik0xOCA5aDEzbDggOHYxMWEzIDMgMCAwIDEtMyAzSDE4YTMgMyAwIDAgMS0zLTNWMTJhMyAzIDAgMCAxIDMtM1oiIGZpbGw9InVybCgjZ2QtZmlsZSkiLz4KICA8cGF0aCBkPSJNMzEgOXY2YTIgMiAwIDAgMCAyIDJoNloiIGZpbGw9IiMwOTFjMzYiIG9wYWNpdHk9IjAuNDUiLz4KCiAgPCEtLSB0aGUgcHVsbCwgZnJvbSB0aGUgZmlsZSBkb3duIGludG8gdGhlIGNoYXQgLS0+CiAgPHBhdGggZD0iTTI4IDMxdjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzU3ZWJlZSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KICA8cGF0aCBkPSJNMjggNDJsLTUtN2gxMFoiIGZpbGw9IiM1N2ViZWUiLz4KCiAgPCEtLSB0aGUgY2hhdCBidWJibGUgaXQgbGFuZHMgaW4gLS0+CiAgPHBhdGggZD0iTTggNDRoMjBhNSA1IDAgMCAxIDUgNXYzYTUgNSAwIDAgMS01IDVIMTdsLTUgNHYtNGgtNGE1IDUgMCAwIDEtNS01di0zYTUgNSAwIDAgMSA1LTVaIiBmaWxsPSIjZmZmZmZmIi8+CgogIDwhLS0gbW9ub2dyYW0gLS0+CiAgPHJlY3QgeD0iMzciIHk9IjQwIiB3aWR0aD0iMjMiIGhlaWdodD0iMTciIHJ4PSI2IiBmaWxsPSIjMDkxYzM2IiBzdHJva2U9IiM1N2ViZWUiIHN0cm9rZS13aWR0aD0iMiIvPgogIDx0ZXh0IHg9IjQ4LjUiIHk9IjUyLjUiIGZvbnQtZmFtaWx5PSJ1aS1zYW5zLXNlcmlmLC1hcHBsZS1zeXN0ZW0sU2Vnb2UgVUksUm9ib3RvLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAuNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjAuMyI+R0Q8L3RleHQ+Cjwvc3ZnPgo=",
       "author": "boldandigital",
       "homepage": "https://github.com/boldandigital/dsh-google-drive",
       "repository": {
@@ -75,12 +75,12 @@
         }
       },
       "dist-tags": {
-        "latest": "0.1.8"
+        "latest": "0.1.9"
       },
       "versions": [
         {
-          "version": "0.1.8",
-          "publishTimestamp": 1794312641,
+          "version": "0.1.9",
+          "publishTimestamp": 1794529968,
           "source": {
             "type": "npm"
           },
@@ -99,7 +99,7 @@
       "description": {
         "en": "Route delegated subagents and Agent Teams over free-tier models: pick a pool of approved free routes once, and every child request fails over to the next free model with a persistent ledger of quota, rate-limit and timeout parks. Per-route reasoning effort, task-aware route selection."
       },
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxNzZiNTgiLz48cGF0aCBkPSJNMTcgMzJoMTZtMCAwIDE0LTE1TTMzIDMybDE0IDE1IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiLz48ZyBmaWxsPSJ3aGl0ZSI+PGNpcmNsZSBjeD0iMTciIGN5PSIzMiIgcj0iNSIvPjxjaXJjbGUgY3g9IjQ3IiBjeT0iMTciIHI9IjUiLz48Y2lyY2xlIGN4PSI0NyIgY3k9IjQ3IiByPSI1Ii8+PC9nPjwvc3ZnPg==",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJGcmVlIFN1YmFnZW50cyI+CiAgPHRpdGxlPkZyZWUgU3ViYWdlbnRzPC90aXRsZT4KICA8IS0tCiAgICBBIHJvdXRpbmcgZm9yazogb25lIHJlcXVlc3QgaW4sIHRocmVlIGZyZWUgcm91dGVzIG91dC4gVGhlIGFycm93aGVhZHMgYXJlCiAgICB0aGUgZmFpbG92ZXIgcGF0aHMuIEJvbGQgYW5kIGRpZ2l0YWwgaW5rIHBsYXRlLCBicmFuZCBjeWFuIGdseXBoLgogIC0tPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJmcy1wbGF0ZSIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwOTFjMzYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDUxMjFmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0idXJsKCNmcy1wbGF0ZSkiLz4KCiAgPCEtLSB0aGUgdHJ1bmsgYW5kIHRoZSB0aHJlZSByb3V0ZXMgaXQgY2FuIHRha2UgLS0+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTdlYmVlIiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CiAgICA8cGF0aCBkPSJNMTUgMzJoMTEiLz4KICAgIDxwYXRoIGQ9Ik0yNiAzMmMwIDAgNi0xMyAxNS0xMyIvPgogICAgPHBhdGggZD0iTTI2IDMyYzAgMCA2IDAgMTUgMCIvPgogICAgPHBhdGggZD0iTTI2IDMyYzAgMCA2IDEzIDE1IDEzIi8+CiAgPC9nPgoKICA8IS0tIHRoZSBzb3VyY2UgcmVxdWVzdCAtLT4KICA8Y2lyY2xlIGN4PSIxMyIgY3k9IjMyIiByPSI0LjUiIGZpbGw9IiM1N2ViZWUiLz4KCiAgPCEtLSB0aGUgdGhyZWUgZGVzdGluYXRpb25zIC0tPgogIDxnIGZpbGw9IiM1N2ViZWUiPgogICAgPGNpcmNsZSBjeD0iNDUiIGN5PSIxOSIgcj0iNC41Ii8+CiAgICA8Y2lyY2xlIGN4PSI0NSIgY3k9IjMyIiByPSI0LjUiLz4KICAgIDxjaXJjbGUgY3g9IjQ1IiBjeT0iNDUiIHI9IjQuNSIvPgogIDwvZz4KCiAgPCEtLSBtb25vZ3JhbSAtLT4KICA8cmVjdCB4PSIzNiIgeT0iNDIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIxOCIgcng9IjYiIGZpbGw9IiMwOTFjMzYiIHN0cm9rZT0iIzU3ZWJlZSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPHRleHQgeD0iNDgiIHk9IjU1IiBmb250LWZhbWlseT0idWktc2Fucy1zZXJpZiwtYXBwbGUtc3lzdGVtLFNlZ29lIFVJLFJvYm90byxzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMC4zIj5GUzwvdGV4dD4KPC9zdmc+Cg==",
       "author": "boldandigital",
       "homepage": "https://github.com/boldandigital/dsh-free-subagents",
       "repository": {
@@ -123,12 +123,12 @@
         }
       },
       "dist-tags": {
-        "latest": "0.1.3"
+        "latest": "0.1.4"
       },
       "versions": [
         {
-          "version": "0.1.3",
-          "publishTimestamp": 1794526651,
+          "version": "0.1.4",
+          "publishTimestamp": 1794530252,
           "source": {
             "type": "npm"
           },
@@ -147,6 +147,7 @@
       "description": {
         "en": "Shows the remaining MiniMax Token Plan quota next to the composer, with the 5-hour and weekly windows and their reset times. The API key stays in the harness credential store: the browser never sees it."
       },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJNaW5pTWF4IHF1b3RhIj4KICA8dGl0bGU+TWluaU1heCBxdW90YTwvdGl0bGU+CiAgPCEtLQogICAgQSBxdW90YSBnYXVnZTogYSByaW5nIHdob3NlIGZpbGxlZCBhcmMgaXMgdGhlIHJlbWFpbmluZyBhbGxvd2FuY2UsIHdpdGggdGhlCiAgICBuZWVkbGUgc2l0dGluZyBpbiBpdC4gVGhlIHBsdWdpbiB0ZWxscyB5b3Ugd2hhdCBpcyBsZWZ0IGJlZm9yZSB5b3Ugc3BlbmQKICAgIGl0LCBzbyB0aGUgYXJjIGlzIHRoZSBzdWJqZWN0IGFuZCB0aGUgbmVlZGxlIG9ubHkgcG9pbnRzLgogIC0tPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJtcS1wbGF0ZSIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwOTFjMzYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDUxMjFmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJtcS1hcmMiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNTdlYmVlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRhYzhjYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjbXEtcGxhdGUpIi8+CgogIDwhLS0gdGhlIHJpbmc6IG9wZW4gYXQgdGhlIGJvdHRvbSwgc28gaXQgcmVhZHMgYXMgYSBkaWFsIC0tPgogIDxwYXRoIGQ9Ik0xOC42IDQ1LjRhMTkgMTkgMCAxIDEgMjYuOCAwIiBmaWxsPSJub25lIiBzdHJva2U9IiMxZDM1NTciIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPCEtLSB0aGUgZmlsbGVkIHBhcnQ6IHRoZSByZW1haW5pbmcgYWxsb3dhbmNlIC0tPgogIDxwYXRoIGQ9Ik0zMiAxM2ExOSAxOSAwIDAgMSAxOC4yIDE0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjbXEtYXJjKSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSB0aGUgbmVlZGxlLCBwb2ludGluZyBpbnRvIHRoZSBmaWxsZWQgYXJjIC0tPgogIDxwYXRoIGQ9Ik0zMiAzMmwxMC04IiBmaWxsPSJub25lIiBzdHJva2U9IiM1N2ViZWUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iNC41IiBmaWxsPSIjZmZmZmZmIi8+CgogIDwhLS0gbW9ub2dyYW0gLS0+CiAgPHJlY3QgeD0iMzYiIHk9IjQyIiB3aWR0aD0iMjQiIGhlaWdodD0iMTgiIHJ4PSI2IiBmaWxsPSIjMDkxYzM2IiBzdHJva2U9IiM1N2ViZWUiIHN0cm9rZS13aWR0aD0iMiIvPgogIDx0ZXh0IHg9IjQ4IiB5PSI1NSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsLWFwcGxlLXN5c3RlbSxTZWdvZSBVSSxSb2JvdG8sc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjAuMyI+TVE8L3RleHQ+Cjwvc3ZnPgo=",
       "author": "boldandigital",
       "homepage": "https://github.com/boldandigital/dsh-minimax-quota",
       "repository": {
@@ -169,12 +170,12 @@
         }
       },
       "dist-tags": {
-        "latest": "0.2.1"
+        "latest": "0.2.2"
       },
       "versions": [
         {
-          "version": "0.2.1",
-          "publishTimestamp": 1794526702,
+          "version": "0.2.2",
+          "publishTimestamp": 1794530261,
           "source": {
             "type": "npm"
           },
