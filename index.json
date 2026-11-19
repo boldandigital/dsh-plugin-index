@@ -233,6 +233,54 @@
           }
         }
       ]
+    },
+    {
+      "name": "dsh-plan-quota-chip",
+      "title": {
+        "en": "Plan usage"
+      },
+      "description": {
+        "en": "Shows the plan quota left across MiniMax and OpenDesign in the composer dock. One compact chip reports the combined remaining percentage - the average of what each plan has left, one plan one vote - and a click-to-open panel breaks it down into the per-provider 5-hour and weekly windows with their reset times. Keys stay in the harness credential store, so the browser never sees them."
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJQbGFuIHVzYWdlIj4KICA8dGl0bGU+UGxhbiB1c2FnZTwvdGl0bGU+CiAgPCEtLQogIEEgcXVvdGEgZ2F1Z2U6IGEgcmluZyB3aG9zZSBmaWxsZWQgYXJjIGlzIHRoZSByZW1haW5pbmcgYWxsb3dhbmNlLCB3aXRoIHRoZQogIG5lZWRsZSBzaXR0aW5nIGluIGl0LiBUaGUgcGx1Z2luIHRlbGxzIHlvdSB3aGF0IGlzIGxlZnQgYmVmb3JlIHlvdSBzcGVuZAogIGl0LCBzbyB0aGUgYXJjIGlzIHRoZSBzdWJqZWN0IGFuZCB0aGUgbmVlZGxlIG9ubHkgcG9pbnRzLgogIC0tPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwdS1wbGF0ZSIgeDE9IjAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwOTFjMzYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDUxMjFmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJwdS1hcmMiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNTdlYmVlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRhYzhjYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9InVybCgjcHUtcGxhdGUpIi8+CgogIDwhLS0gdGhlIHJpbmc6IG9wZW4gYXQgdGhlIGJvdHRvbSwgc28gaXQgcmVhZHMgYXMgYSBkaWFsIC0tPgogIDxwYXRoIGQ9Ik0xOC42IDQ1LjRhMTkgMTkgMCAxIDEgMjYuOCAwIiBmaWxsPSJub25lIiBzdHJva2U9IiMxZDM1NTciIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPCEtLSB0aGUgZmlsbGVkIHBhcnQ6IHRoZSByZW1haW5pbmcgYWxsb3dhbmNlIC0tPgogIDxwYXRoIGQ9Ik0zMiAxM2ExOSAxOSAwIDAgMSAxOC4yIDE0IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjcHUtYXJjKSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSB0aGUgbmVlZGxlLCBwb2ludGluZyBpbnRvIHRoZSBmaWxsZWQgYXJjIC0tPgogIDxwYXRoIGQ9Ik0zMiAzMmwxMC04IiBmaWxsPSJub25lIiBzdHJva2U9IiM1N2ViZWUiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iNC41IiBmaWxsPSIjZmZmZmZmIi8+CgogIDwhLS0gbW9ub2dyYW0gLS0+CiAgPHJlY3QgeD0iMzYiIHk9IjQyIiB3aWR0aD0iMjQiIGhlaWdodD0iMTgiIHJ4PSI2IiBmaWxsPSIjMDkxYzM2IiBzdHJva2U9IiM1N2ViZWUiIHN0cm9rZS13aWR0aD0iMiIvPgogIDx0ZXh0IHg9IjQ4IiB5PSI1NSIgZm9udC1mYW1pbHk9InVpLXNhbnMtc2VyaWYsLWFwcGxlLXN5c3RlbSxTZWdvZSBVSSxSb2JvdG8sc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjAuMyI+UFU8L3RleHQ+Cjwvc3ZnPgo=",
+      "author": "boldandigital",
+      "homepage": "https://github.com/boldandigital/dsh-plan-quota-chip",
+      "repository": {
+        "url": "https://github.com/boldandigital/dsh-plan-quota-chip"
+      },
+      "metadata": {
+        "category": "integration",
+        "labels": [
+          "npm"
+        ],
+        "keywords": [
+          "minimax",
+          "opendesign",
+          "quota",
+          "plan-usage",
+          "chip",
+          "combined"
+        ],
+        "sortKeys": {
+          "stars": 0
+        }
+      },
+      "dist-tags": {
+        "latest": "0.3.2"
+      },
+      "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1795089760,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3",
+            "node": ">=22.0.0"
+          }
+        }
+      ]
     }
   ]
 }

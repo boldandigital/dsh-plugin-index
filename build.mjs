@@ -62,6 +62,18 @@ const PLUGINS = [
 		category: 'integration',
 		keywords: ['mailgun', 'email', 'send', 'tracking', 'transactional', 'api'],
 	},
+	{
+		name: 'dsh-plan-quota-chip',
+		title: { en: 'Plan usage' },
+		description: {
+			en: 'Shows the plan quota left across MiniMax and OpenDesign in the composer dock. One compact chip reports the combined remaining percentage - the average of what each plan has left, one plan one vote - and a click-to-open panel breaks it down into the per-provider 5-hour and weekly windows with their reset times. Keys stay in the harness credential store, so the browser never sees them.',
+		},
+		author: 'boldandigital',
+		homepage: 'https://github.com/boldandigital/dsh-plan-quota-chip',
+		repository: { url: 'https://github.com/boldandigital/dsh-plan-quota-chip' },
+		category: 'integration',
+		keywords: ['minimax', 'opendesign', 'quota', 'plan-usage', 'chip', 'combined'],
+	},
 ];
 
 const ICON_BYTES_LIMIT = 32 * 1024;
